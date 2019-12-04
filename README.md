@@ -17,4 +17,7 @@ curl -X POST http://localhost:8888/api/crop -d '{"message":"Codility we test cod
 
 K8s cluster on RedHAT:
 
-http://postcropper-evals28-shared-6494.apps.hackathon.rhmi.io/api/crop
+
+curl -X POST http://postcropper-evals28-shared-6494.apps.hackathon.rhmi.io/api/crop -d '{"message":"Codility we test coders","maximumLength":14}' -H "Content-Type: application/json"
+
+
