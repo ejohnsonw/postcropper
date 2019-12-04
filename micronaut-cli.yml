@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: ai.autonomic.test
+---
+testFramework: spock
+sourceLanguage: groovy

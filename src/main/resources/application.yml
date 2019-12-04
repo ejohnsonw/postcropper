@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: postcropper
+  server:
+    port: 8888
